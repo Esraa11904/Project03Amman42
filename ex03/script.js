@@ -9,7 +9,7 @@ function updateDisplay() {
     counterDisplay.textContent = count;
 
     if (count > 0) {
-        counterDisplay.style.color = "black";
+        counterDisplay.style.color = "green";
     } else if (count < 0) {
         counterDisplay.style.color = "red";
     } else {
